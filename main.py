@@ -75,4 +75,4 @@ print(sum(sum(int(d) for d in str(n)) for n in lst if n % 2 == 1))
 print([n for n in lst if all(n % i != 0 for i in range(2, int(math.sqrt(n)) + 1)) and n > 1])
 
 # 25
-print(sum(len(str(n)) for n in lst if all(n % i != 0 for i in range(2, int(math.sqrt(n)) + 1)) and n > -1))
+print(sum(len(str(n)) for n in lst if all(n % i != 0 for i in range(2, int(math.sqrt(n)) + 1)) and n > 1))
